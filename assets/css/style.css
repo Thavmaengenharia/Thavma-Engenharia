@@ -107,6 +107,7 @@ body {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     position: relative;
 }
 
@@ -123,13 +124,9 @@ body {
     position: relative;
     z-index: 2;
     color: #fff;
-    width: 90%; 
-    max-width: 900px; /* Limite de largura para boa leitura */
-    margin: 0 auto; /* Centraliza o bloco na página */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza o conteúdo */
-    text-align: center;  /* Centraliza o texto */
+    max-width: 50%;
+    text-align: left;
+    padding-left: 5%;
 
 }
 
