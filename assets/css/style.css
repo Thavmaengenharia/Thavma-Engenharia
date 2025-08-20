@@ -124,7 +124,7 @@ body {
     position: relative;
     z-index: 2;
     color: #fff;
-    max-width: 85%;
+    max-width: 65%;
     text-align: left;
     padding-left: 5%;
 
@@ -135,6 +135,8 @@ body {
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
+     width: 100%; /* <<< FORÇA O TÍTULO A USAR TODO O ESPAÇO DISPONÍVEL */
+    max-width: 750px; /* <<< DEFINE UM LIMITE MÁXIMO PARA A LARGURA */
 }
 
 .highlight {
