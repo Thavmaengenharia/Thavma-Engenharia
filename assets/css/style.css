@@ -135,8 +135,6 @@ body {
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
-     width: 100%; /* <<< FORÇA O TÍTULO A USAR TODO O ESPAÇO DISPONÍVEL */
-    max-width: 750px; /* <<< DEFINE UM LIMITE MÁXIMO PARA A LARGURA */
 }
 
 .highlight {
