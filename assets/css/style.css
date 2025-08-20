@@ -124,7 +124,7 @@ body {
     position: relative;
     z-index: 2;
     color: #fff;
-    width: 65%; /* Usamos 'width' em vez de 'max-width' para ser mais direto */
+    width: 85%; /* Usamos 'width' em vez de 'max-width' para ser mais direto */
     text-align: left;
     padding-left: 5%;
 
