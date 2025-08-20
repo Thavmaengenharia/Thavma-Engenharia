@@ -135,6 +135,7 @@ body {
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
+     width: 100%; /* Faz o título usar todo o espaço do .hero-content */
 }
 
 .highlight {
