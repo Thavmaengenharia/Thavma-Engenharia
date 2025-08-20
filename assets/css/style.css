@@ -105,10 +105,10 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
     position: relative;
+    padding: 0 5%; /* Adiciona um espaçamento nas laterais */
 }
 
 .hero-overlay {
@@ -124,9 +124,9 @@ body {
     position: relative;
     z-index: 2;
     color: #fff;
-    width: 55%; /* Usamos 'width' em vez de 'max-width' para ser mais direto */
-    text-align: left;
-    padding-left: 5%;
+    text-align: left; /* Alinha o texto à esquerda */
+    width: 60%; /* Ocupa 60% do espaço do .hero */
+    max-width: 850px; /* Define uma largura máxima para o texto */
 
 }
 
@@ -135,7 +135,7 @@ body {
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
-     width: 100%; /* Faz o título usar todo o espaço do .hero-content */
+    width: 100%; /* Faz o título usar todo o espaço do .hero-content */
 }
 
 .highlight {
