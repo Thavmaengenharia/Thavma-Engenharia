@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thavmaengenharia.com.br/sitemap.xml
+
+# Otimizações para SEO
+Crawl-delay: 1
+
+# Permitir indexação de todas as páginas principais
+Allow: /index.html
+Allow: /sobre
+Allow: /servicos
+Allow: /contato
+
+# Bloquear arquivos desnecessários para SEO
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: *.js$
+Disallow: *.css$
